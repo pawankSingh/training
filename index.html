@@ -2,8 +2,45 @@
 <html>
 <head>
     <title>first page</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <style>
+        p {
+            color: red;
+
+        }
+h1 {
+            font-size: 1.5em;
+        }
+    </style
 </head>
-<body>
-      Hello World!
+<body bgcolor="#f0f8ff">
+<div id="contact-form">
+    <form id="contact" method="post" action="">
+        <fieldset>
+            <div class="name">
+                <label for="name">Name</label>
+                <input type="text" value="enter your name">
+            </div>
+           <div class="name"> <label for="pass">Pass</label>
+            <input type="text" value="enter your password"></div>
+            <div class="name">
+            <label for="Gender">Gender</label>
+            <input type="radio" value="">Male</input>
+            <input type="radio" value="">Female</input>  </div>
+            <div class="name"> <label for="phno">PhNo</label>
+            <input type="num" value="eg:91xxxxxxxxxx"> </div>
+
+            <div class="name"> <label for="EId">EId</label>
+            <input type="text" value="eg:xxx@gmail.com"> </input></div>
+
+            <h1> Write Your Message:</h1><br>
+            <textarea name="message" rows="20" cols="50" value=""></textarea>
+
+            <div class="name"><p><input type="checkbox"><b>I agree</b></input></p></div>
+            <input type="Submit" value="send message"><input type="Reset">
+
+        </fieldset>
+    </form>
+</div>
 </body>
 </html>
